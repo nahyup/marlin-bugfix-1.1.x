@@ -385,9 +385,9 @@
   //#define DEFAULT_Ki 1.73
   //#define DEFAULT_Kd 53.75
   // Autotune Results
-  #define DEFAULT_Kp 31.75
-  #define DEFAULT_Ki 3.37
-  #define DEFAULT_Kd 74.78
+  #define DEFAULT_Kp 33.15
+  #define DEFAULT_Ki 3.16
+  #define DEFAULT_Kd 86.90
 
 #endif // PIDTEMP
 
@@ -432,9 +432,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
-  #define DEFAULT_bedKp 712.38
-  #define DEFAULT_bedKi 122.42
-  #define DEFAULT_bedKd 1036.34
+  #define DEFAULT_bedKp 633.54
+  #define DEFAULT_bedKi 118.97
+  #define DEFAULT_bedKd 843.40
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
@@ -789,7 +789,7 @@
 #define Z_PROBE_OFFSET_FROM_EXTRUDER -1.4   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
-#define MIN_PROBE_EDGE 30
+#define MIN_PROBE_EDGE 40
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
